@@ -1,0 +1,208 @@
+.desktop{
+    position: relative;
+    height: 100%;
+    width: 100%;
+        background-color: #FAFAFA;
+    overflow: hidden;
+   }
+
+.background-image{
+left: 45.4px;
+ top: 81px;
+ width: 1311px; 
+ height: 650px;
+ background: transparent url('img/background.jpg') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-top: 40px;
+margin-left: 40px;
+}
+
+.artboard{
+    top: 40px;
+left: 1000px;
+width: 500px;
+height: 650px;
+/* UI Properties */
+background: var(---ffffff) 0% 0% no-repeat padding-box;
+background:#FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+box-shadow: 0px 4px 8px #0000003D;
+position: absolute;
+}
+
+.rectangle{
+    top: 110px;
+left: 750px;
+width: 500px;
+height: 550px;
+/* UI Properties */
+background: var(---ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 8px #0000003D;
+border-radius: 32px;
+opacity: 1;
+position: absolute;
+}
+.connect-image{
+    top: 240px;
+left: 260px;
+opacity: 1;
+position: absolute;
+}
+
+.connect-globally{
+    top: 130px;
+left: 250px;
+width: 566px;
+height: 58px;
+/* UI Properties */
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---ffffff);
+text-align: left;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+position: absolute;
+font-size: 40px;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.connect-across{
+top: 190px;
+left: 310px;
+width: 566px;
+height: 48px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal 300 var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---ffffff);
+text-align: left;
+font: normal normal 300 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.4;
+position: absolute;
+font-size: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo_symbol{
+top: 125px;
+left: 780px;
+width: 76px;
+height: 76px;
+/* UI Properties */
+background: transparent url('img/logo_symbol.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+.sign{
+    top: 200px;
+left: 780px;
+width: 512px;
+height: 58px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 48px/58px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---231f20);
+text-align: left;
+font: normal normal bold 48px/58px Montserrat;
+letter-spacing: 0px;
+color: #231F20;
+opacity: 1;
+position: absolute;
+font-size: 40px;
+ 
+}
+
+.sign p{
+    top: 0px;
+    left: 137px;
+    width: 600px;
+    height: 15px;
+    font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-12)/18px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---228993);
+    text-align: left;
+    font: normal normal 600 12px/18px Montserrat;
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+
+.sign input{
+    
+    text-align: left;
+    font: normal normal 300 16px/19px Rubik;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+    top: 440px;
+left: 1056px;
+width: 370px;
+height: 40px;
+/* UI Properties */
+background: var(---ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+border: none;
+box-shadow: 0px 1px 0px #228993;
+font-size: 16px;
+}
+.sign input:hover{
+    border: 2px solid #089BF1;
+    box-shadow: none;
+}
+.sign .forget a{
+    top: 500px;
+left: 1056px;
+width: 108px;
+height: 15px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/18px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-089bf1);
+text-align: left;
+font: normal normal normal 12px/18px Montserrat;
+letter-spacing: 0px;
+color: #089BF1;
+opacity: 1;
+    
+}
+button{
+    top: 900px;
+    left: 1068px;
+    width: 128px;
+    height: 35px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-12)/var(--unnamed-line-spacing-15) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal 600 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: #228993;
+    opacity: 1;
+    font-size: 16px;
+    border: none;
+}
+button:hover{
+    box-shadow: 3px 4px 6px #0000003D;
+    border: 3px solid #089BF1;
+}
+.reg{
+   top: 0px;
+left: 450px;
+margin-top: -35px;
+margin-left: 280px;
+width: 97px;
+height: 15px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/18px var(--unnamed-font-family-montserrat);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(---231f20);
+text-align: right;
+font: normal normal normal 12px/18px Montserrat;
+letter-spacing: 0px;
+color: #231F20;
+}
